@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Interests - JS Unconf 2014</title>
+    <id>http://example.com/</id>
+    <updated>2014-04-22T19:44:39Z</updated>
+    <author>
+        <name>JS Unconf 2014</name>
+    </author>
+    <logo>http://contribs.jsunconf.eu/img/logo-200.png</logo>
+    <generator>Feed for Node.js</generator>
+    <entry>
+        <title type="html"><![CDATA[Hapi.js]]></title>
+        <id>/interests/11AC7AF8-C4B0-4D1F-B3ED-F7985679681D</id>
+        <link href="/interests/11AC7AF8-C4B0-4D1F-B3ED-F7985679681D">
+        </link>
+        <updated>2014-03-25T20:04:28Z</updated>
+        <summary type="html"><![CDATA[Hapi.js is a web framework for node by the guys over at wallmart labs. It's configuration heavy, meaning config over convention, and incredibly adaptable and flexible. I think it's an amazing framework that needs to be covered more. ]]></summary>
+        <author>
+            <name>Robin Thrift</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Node.js in production]]></title>
+        <id>/interests/2922BB34-F73B-42C0-AC0F-A38A3543066D</id>
+        <link href="/interests/2922BB34-F73B-42C0-AC0F-A38A3543066D">
+        </link>
+        <updated>2014-01-23T18:54:35Z</updated>
+        <summary type="html"><![CDATA[How is your company using Node.js in production and what is your experience? What was your stack before starting Node? What changed for the better and what does not work for you?]]></summary>
+        <author>
+            <name>Robert</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meteor]]></title>
+        <id>/interests/2A93BD02-890C-444E-9D1D-8F467C404C05</id>
+        <link href="/interests/2A93BD02-890C-444E-9D1D-8F467C404C05">
+        </link>
+        <updated>2014-01-17T15:09:38Z</updated>
+        <summary type="html"><![CDATA[What is Meteor, what's different to other Frameworks. ]]></summary>
+        <author>
+            <name>casarock</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JXcore]]></title>
+        <id>/interests/30470D34-1B37-42FE-8ECA-B9F3B85AC787</id>
+        <link href="/interests/30470D34-1B37-42FE-8ECA-B9F3B85AC787">
+        </link>
+        <updated>2014-04-21T21:57:18Z</updated>
+        <summary type="html"><![CDATA[JXcore (a node.js distribution with additional features) looks quite interesting and I would really like to hear some]]></summary>
+        <author>
+            <name>Maciej Kilpadi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vue JS]]></title>
+        <id>/interests/401A3152-3AA2-4446-B596-9DEADDB0EF94</id>
+        <link href="/interests/401A3152-3AA2-4446-B596-9DEADDB0EF94">
+        </link>
+        <updated>2014-03-19T15:45:44Z</updated>
+        <summary type="html"><![CDATA[Framework vuejs experiences, how-to, best practices, etc]]></summary>
+        <author>
+            <name>Alejandro</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Streams 3]]></title>
+        <id>/interests/41145CDB-3F0C-4B3C-B515-5A8566DE77EC</id>
+        <link href="/interests/41145CDB-3F0C-4B3C-B515-5A8566DE77EC">
+        </link>
+        <updated>2013-10-28T18:48:57Z</updated>
+        <summary type="html"><![CDATA[I would be interested in an in-depth look at Streams 3, which are coming with node 0.12]]></summary>
+        <author>
+            <name>Robert Kowalski</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Browserify vs RequireJS]]></title>
+        <id>/interests/515DC2C4-5256-4F67-B0EB-D5FC02D1EAAD</id>
+        <link href="/interests/515DC2C4-5256-4F67-B0EB-D5FC02D1EAAD">
+        </link>
+        <updated>2014-02-27T22:43:44Z</updated>
+        <summary type="html"><![CDATA[JS modules:
+
+Browserify allows CommonJS `require()` and npm package consumption.
+
+RequireJS allows AMD standard modules and in-browser loading.
+
+Fight!]]></summary>
+        <author>
+            <name>Christoph Burgmer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AngularJS beyond Todo apps]]></title>
+        <id>/interests/526EE04B-4BE6-4F7B-B2F7-AD66A348258C</id>
+        <link href="/interests/526EE04B-4BE6-4F7B-B2F7-AD66A348258C">
+        </link>
+        <updated>2013-11-20T19:37:11Z</updated>
+        <summary type="html"><![CDATA[War stories about AngularJS in more complex applications.
+What are the Gotchas etc.]]></summary>
+        <author>
+            <name>Robin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scala.js]]></title>
+        <id>/interests/5D82A5F1-BAEF-47B7-9022-1B61B57D3324</id>
+        <link href="/interests/5D82A5F1-BAEF-47B7-9022-1B61B57D3324">
+        </link>
+        <updated>2014-03-21T13:55:31Z</updated>
+        <summary type="html"><![CDATA[I would like to hear from our functional neighbor Scala and how it translates to JavaScript. Details:
+
+http://www.scala-js.org/]]></summary>
+        <author>
+            <name>Oliver Zeigermann</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Documentation Generators Best Practices]]></title>
+        <id>/interests/8538DE29-D591-492F-A3B5-C99FA11471F5</id>
+        <link href="/interests/8538DE29-D591-492F-A3B5-C99FA11471F5">
+        </link>
+        <updated>2014-02-07T12:06:21Z</updated>
+        <summary type="html"><![CDATA[It's difficult to choose the right tool to generate a documentation from the comments in your Javascript. Each tool has its own advantages and disadvantages and once you've decided for one your stuck forever with its syntax rules.
+
+Either the tool's are designed for a slight different purpose (YUIDoc, JSDuck) or they might be a little hackish and lack some polish in the generated documents (JSDoc).
+
+It would be great to learn about the experiences in adopting such a documentation generator in real projects.]]></summary>
+        <author>
+            <name>Matthias Seemann</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Testing node.js code]]></title>
+        <id>/interests/9B7B9491-AD7B-4C6B-8FEC-532389B416A7</id>
+        <link href="/interests/9B7B9491-AD7B-4C6B-8FEC-532389B416A7">
+        </link>
+        <updated>2014-04-21T19:07:07Z</updated>
+        <summary type="html"><![CDATA[Automated tests are an essential part of any good software system. I would love to see some test frameworks in action (especially Mocha) and hear opinions about how, what and what not to do. ]]></summary>
+        <author>
+            <name>Benjamin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Prototyping with Hoodie and Angular]]></title>
+        <id>/interests/A6A5D6C9-6030-48A3-B003-3A5E4F59100B</id>
+        <link href="/interests/A6A5D6C9-6030-48A3-B003-3A5E4F59100B">
+        </link>
+        <updated>2013-12-06T11:33:03Z</updated>
+        <summary type="html"><![CDATA[Getting from zero to deployed prototype with user login. And yes, why not the todo app, would be interested in learning about workflow, used tools and configuration.]]></summary>
+        <author>
+            <name>Fabian</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[D3 Deep Dive]]></title>
+        <id>/interests/C35FA61E-C628-427F-B335-D41282438D86</id>
+        <link href="/interests/C35FA61E-C628-427F-B335-D41282438D86">
+        </link>
+        <updated>2014-03-29T15:17:50Z</updated>
+        <summary type="html"><![CDATA[Learn by some practical examples on how to build great looking visualizations on (complex?) data structures by leveraging the D3.js library. Give an outlook on how would one create components which can be reused on multiple contexts / pages.]]></summary>
+        <author>
+            <name>Niko</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WebRTC]]></title>
+        <id>/interests/E2EE68B8-21FC-4566-97F9-DB6E76963905</id>
+        <link href="/interests/E2EE68B8-21FC-4566-97F9-DB6E76963905">
+        </link>
+        <updated>2014-03-19T15:47:20Z</updated>
+        <summary type="html"><![CDATA[Developing WebRTC applications, use cases, experiences, examples, best practices, etc..]]></summary>
+        <author>
+            <name>Alejandro</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Grunt vs. Gulp]]></title>
+        <id>/interests/E855AB63-84F6-4300-BD0B-8BEB84EC313B</id>
+        <link href="/interests/E855AB63-84F6-4300-BD0B-8BEB84EC313B">
+        </link>
+        <updated>2014-03-27T08:24:23Z</updated>
+        <summary type="html"><![CDATA[Strengths, weaknesses, differences between the two popular js task runners.]]></summary>
+        <author>
+            <name>Felix</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Structuring larger JS codebases]]></title>
+        <id>/interests/F6C121CA-3ABF-42A4-A0D5-77ABE44501D5</id>
+        <link href="/interests/F6C121CA-3ABF-42A4-A0D5-77ABE44501D5">
+        </link>
+        <updated>2014-03-29T15:12:07Z</updated>
+        <summary type="html"><![CDATA[What are current recommendations for keeping middle to larger JavaScript code bases maintainable? Give some real world examples on grouping functionality to modules and also on which aspects should be tested.]]></summary>
+        <author>
+            <name>Niko</name>
+        </author>
+    </entry>
+</feed>

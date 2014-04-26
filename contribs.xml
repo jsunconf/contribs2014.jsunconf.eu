@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Contribs - JS Unconf 2014</title>
+    <id>http://example.com/</id>
+    <updated>2014-04-22T19:44:39Z</updated>
+    <author>
+        <name>JS Unconf 2014</name>
+    </author>
+    <logo>http://contribs.jsunconf.eu/img/logo-200.png</logo>
+    <generator>Feed for Node.js</generator>
+    <entry>
+        <title type="html"><![CDATA[Your first steps with Clojurescript and Om]]></title>
+        <id>/contribs/05A0DB07-6B02-43A7-B62B-5AFCC86C3801</id>
+        <link href="/contribs/05A0DB07-6B02-43A7-B62B-5AFCC86C3801">
+        </link>
+        <updated>2014-04-01T10:42:54Z</updated>
+        <summary type="html"><![CDATA[React, immutable data, Clojurescript, functional programming, ommmmm. If you have missed out on this amazing new paradigm I will help you to catch up. Let me guide you through the first steps of working with Clojurescript and blow your mind.]]></summary>
+        <author>
+            <name>Jelle Akkerman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building Desktop applications with node.js and node-webkit]]></title>
+        <id>/contribs/14532849-FF5E-44E2-A27D-F30AA2DD0DB5</id>
+        <link href="/contribs/14532849-FF5E-44E2-A27D-F30AA2DD0DB5">
+        </link>
+        <updated>2014-01-20T18:28:49Z</updated>
+        <summary type="html"><![CDATA[Introduction into node-webkit. Some technical basics how node.js and the webkit browser instance work together.
+After the basics are done we can dive into some code and examples.
+]]></summary>
+        <author>
+            <name>Moritz Spindelhirn</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web Security in Single Page Apps and node.js]]></title>
+        <id>/contribs/147ED35A-521A-42E9-BE9E-C2D3174ECD65</id>
+        <link href="/contribs/147ED35A-521A-42E9-BE9E-C2D3174ECD65">
+        </link>
+        <updated>2014-02-03T18:47:55Z</updated>
+        <summary type="html"><![CDATA[Web Security is usually an afterthought but is an important part of building a production-ready app.  In the last few years, Single Page Apps (SPAs) have become very popular in the web community.  Unfortunately, there are plenty of bad patterns with security vulnerabilities being spread across the web.  Single Page Apps are a new and different kind of architecture but you need to do even more than the "classic web" to secure your app.  The good news is there are a lot of great modules and frameworks to use to help protect you against XSS, Clickjacking, CSRF, etc.  
+
+In this talk, I plan to identify some anti-patterns and show best practices for securing your apps (focusing on node and SPA libraries like backbone).  I'll show actual code samples with security holes and what you can do to patch it up.
+
+I hope to inspire others to care about security and take the extra step to secure their app and their users.  Thanks!]]></summary>
+        <author>
+            <name>Mark Stuart</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Supersonic Node.js applications with Lua and Luvit.io]]></title>
+        <id>/contribs/1F7AE29D-A980-4A0A-AA09-9BC6F8B11CEB</id>
+        <link href="/contribs/1F7AE29D-A980-4A0A-AA09-9BC6F8B11CEB">
+        </link>
+        <updated>2013-12-10T09:31:00Z</updated>
+        <summary type="html"><![CDATA[Start building 4x faster applications by taking node.js architecture and dependencies into the Lua language using luvit.io (http://luvit.io/) 
+Luvit is an asynchronous I/O which uses the same stack as node.js except V8 is replaced with LuaJIT which is a really tiny jit vm for Lua and super fast. Luvit's event loop is I/O driven like node.js but unlike node.js lua has a really simple C APIs which makes build native modules a bit nicer. Luvit has the protocols and crypto, runs on all major platforms as Linux, OS X, FreeBSD and Windows. It is a cross-platform platform, ready to start building your supersonic applications!]]></summary>
+        <author>
+            <name>Dmitri Voronianski</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The secrets of the git ninjas]]></title>
+        <id>/contribs/20C3C6EF-B9F5-4EBA-9193-44AA3DEC1ED1</id>
+        <link href="/contribs/20C3C6EF-B9F5-4EBA-9193-44AA3DEC1ED1">
+        </link>
+        <updated>2014-03-12T20:06:42Z</updated>
+        <summary type="html"><![CDATA[You are using git for quite some time now and you think you rock it? Turns out you knew nothing! Git is such a powerful tool that it supports lots of different workflows you may not know about yet. Learn how to never lose work. Learn how to maintain a history with semantic commits and learn about Christoph's secret "I'll fix that later"-workflow.
+
+Vote for this session if you want to become a more productive git ninya.]]></summary>
+        <author>
+            <name>Christoph Burgdorf</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Between "Hello World" and enterprise grade cloud setups: How to deploy, scale and monitor your Node.js applications]]></title>
+        <id>/contribs/232855A0-DC1A-4F91-83E5-F4ED5F57334F</id>
+        <link href="/contribs/232855A0-DC1A-4F91-83E5-F4ED5F57334F">
+        </link>
+        <updated>2014-01-10T10:42:54Z</updated>
+        <summary type="html"><![CDATA[When you look at common Node.js tutorials, they usually resolve around how to get started with Express. Some of them also explain how to deploy your site and keep it running on hosting platforms like Heroku or as a service on your own machine. But shortly thereafter you are left to your own devices. On the other hand, you hear about great stories of Node.js in production like at Walmart during Black Friday (http://nodeup.com/fiftysix) – the part in between is mostly missing.
+
+But what happens if your little application or API attracts more users and you need to scale? What is the best way to monitor and measure your application, find bottlenecks and unexpected errors as things are growing? And how do you deploy new versions with minimum downtime?
+
+** This contribution is meant as an open discussion to share own experiences and best practices rather than a presentation. As individual needs, project setups and resulting problems differ, this is a great opportunity to compare different approaches. **]]></summary>
+        <author>
+            <name>Frederic Hemberger</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Math Fun: Procedural Music with Java Script]]></title>
+        <id>/contribs/2CE3004E-E18B-4161-B1B5-DB89E281B62B</id>
+        <link href="/contribs/2CE3004E-E18B-4161-B1B5-DB89E281B62B">
+        </link>
+        <updated>2014-03-12T08:03:13Z</updated>
+        <summary type="html"><![CDATA[How about ...
+
+- using math to create music in JavaScript,
+- plus some basic synthesizer and music theory?
+
+Let's explore mathematically engineered audio buffers!
+This technique is used in JavaScript projects where size really matters. ]]></summary>
+        <author>
+            <name>Manuel Rülke</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Where Node.js Meets iOS]]></title>
+        <id>/contribs/2EC9E0CE-A27D-48C8-A07E-D99A8BD2D1F9</id>
+        <link href="/contribs/2EC9E0CE-A27D-48C8-A07E-D99A8BD2D1F9">
+        </link>
+        <updated>2013-12-06T11:39:45Z</updated>
+        <summary type="html"><![CDATA[Writing iOS apps in Javascript is not a new idea, anymore, at least since companies like
+Appcelerator (Titanium) built entire business models around corresponding frameworks.
+
+And yet, Apple manages to open up two exciting new possibilities during the WWDC 2013:
+The release of the JavaScriptCore Framework as a public API on iOS and OS X,
+as well as the announcement of an Objective-C to Javascript Bridge.
+
+I'd like to talk to you about my experiences with these new bridge-technologies,
+the new ways in which you can use them and finally present to you my own project;
+Node.app -- a Node.js implementation for iOS.]]></summary>
+        <author>
+            <name>Samuel Reis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building Real-Time, Collaborative Web Applications]]></title>
+        <id>/contribs/32BF507E-6496-4519-8E53-EB1B1444E292</id>
+        <link href="/contribs/32BF507E-6496-4519-8E53-EB1B1444E292">
+        </link>
+        <updated>2013-12-13T11:31:27Z</updated>
+        <summary type="html"><![CDATA[Operational Transforms are a set of algorithms that resolve conflicts automatically for real-time, concurrent edits of content and documents. Think “Google Docs”. They lie at the heart of many modern web applications that leverage real-time collaboration. Systems like Firebase.com offer back-end implenetations but not the all-imoprtant conflict resolution.
+
+You can find plenty of arcane academic papers on this subject but most developers are interested in real-world implementations. My talk will discuss such implementations using the excellent ShareJS library and NodeJS. 
+
+I have been working on Operational Transforms, ShareJS and NodeJS for the last 6 months and I will illustrate Operational Transforms using a pared-down example project that people can download and play with as well as discussing a production level, scalable implementation and the real-world issues faced and overcome. I also am a major contributor to the Karma test runner (ex Testacular).
+]]></summary>
+        <author>
+            <name>Friedel Ziegelmayer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[i18n with angular-translate]]></title>
+        <id>/contribs/45C97666-9B2F-4637-94EE-1B59E8D53B14</id>
+        <link href="/contribs/45C97666-9B2F-4637-94EE-1B59E8D53B14">
+        </link>
+        <updated>2013-12-04T15:59:20Z</updated>
+        <summary type="html"><![CDATA[This talk is about the angular-translate project (http://pascalprecht.github.io/angular-translate). You'll get a brief introduction about what this module is actually about, which features it provides and how you can use it to bring internationalization to your Angular apps.
+
+Expect epic animated gifs!
+
+Cheers.]]></summary>
+        <author>
+            <name>Pascal Precht (@PascalPrecht)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Beyond the To-do List]]></title>
+        <id>/contribs/4D1807D7-6332-4361-A8DC-999A076E996B</id>
+        <link href="/contribs/4D1807D7-6332-4361-A8DC-999A076E996B">
+        </link>
+        <updated>2014-01-03T12:49:35Z</updated>
+        <summary type="html"><![CDATA[There are thousands of examples, using a myriad of javascript frameworks, of how to code a To-Do list. However, when looking for examples of more complex architectures, it is easy to despair.... Based on experience gathered as a Web Developer at trivago, here is one approach to structuring complex Javascript applications using AMD, modules, and Backbone.]]></summary>
+        <author>
+            <name>Jan van Thoor</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Build Your Own AngularJS]]></title>
+        <id>/contribs/4E614F00-F133-4782-BCE4-B653A5D91A21</id>
+        <link href="/contribs/4E614F00-F133-4782-BCE4-B653A5D91A21">
+        </link>
+        <updated>2014-02-10T20:25:30Z</updated>
+        <summary type="html"><![CDATA[AngularJS is a powerful JavaScript framework with a steep learning curve. The inner workings of features like directives, transclusion, data binding, and dependency injection are shrouded in mystery. When you’re trying to get things done, mystery is not helpful. 
+
+I'd like to do a talk / live coding session about demystifying some of the internals of Angular. We’ll take some of its trickier aspects and build them from the ground up, live on the spot. In the process we’ll gain a deep understanding of what makes this framework tick.]]></summary>
+        <author>
+            <name>Tero Parviainen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[emscripten, mandreel and duetto - an overview]]></title>
+        <id>/contribs/4F730609-5351-40C0-8AA7-0FCCA85E31D5</id>
+        <link href="/contribs/4F730609-5351-40C0-8AA7-0FCCA85E31D5">
+        </link>
+        <updated>2013-11-20T07:37:23Z</updated>
+        <summary type="html"><![CDATA[With these three tools you can get your c++ code to JavaScript. I would like to give you an overview and to show their differences.]]></summary>
+        <author>
+            <name>Petra Baranski</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Helping out on the Conference]]></title>
+        <id>/contribs/4F849E90-8317-42E9-914F-6F10ECEE9437</id>
+        <link href="/contribs/4F849E90-8317-42E9-914F-6F10ECEE9437">
+        </link>
+        <updated>2013-11-21T08:27:46Z</updated>
+        <summary type="html"><![CDATA[I want to help with org and running the corp. May it be handing out coffee or cleaning the venue (or maybe something more interesting). 
+
+]]></summary>
+        <author>
+            <name>Sebs</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introduction to react.js]]></title>
+        <id>/contribs/5540A617-B769-48E5-A00D-81015D2AAE58</id>
+        <link href="/contribs/5540A617-B769-48E5-A00D-81015D2AAE58">
+        </link>
+        <updated>2014-03-14T22:22:08Z</updated>
+        <summary type="html"><![CDATA[Facebook has come up with the framework react.js (http://facebook.github.io/react/index.html). It has some surprising features and is already used throughout facebook's web applications. 
+
+In this talk we will investigate those new design features and find out if and for which requirements you would want to use it. ]]></summary>
+        <author>
+            <name>Oliver Zeigermann</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using the SCARF model to improve cooperation in development teams]]></title>
+        <id>/contribs/5F89F50C-7331-4B78-81D4-C6A2C1692908</id>
+        <link href="/contribs/5F89F50C-7331-4B78-81D4-C6A2C1692908">
+        </link>
+        <updated>2014-02-23T12:38:38Z</updated>
+        <summary type="html"><![CDATA[Developing software in a team is not only about technology, but also about cooperating with other team members. However, the importance of our social needs - especially when working together - has been traditionally underrated. As it turns out, a threat to your status in a team activates similar brain regions as a physical threat to your live. Also, did you know that your brain has a default mode that gets activated when you do nothing? Did you know that in this default mode the brain mainly deals with thinking about others and your relation to them?
+
+In this talk I will introduce you to the basics of your social brain, the SCARF  (http://www.your-brain-at-work.com/files/NLJ_SCARFUS.pdf) model, and how we can improve our social interactions. ]]></summary>
+        <author>
+            <name>Oliver Zeigermann</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lightning Talk: AngularFire]]></title>
+        <id>/contribs/601743BB-6EFF-4147-8B7B-309D1A67F3B7</id>
+        <link href="/contribs/601743BB-6EFF-4147-8B7B-309D1A67F3B7">
+        </link>
+        <updated>2014-02-11T17:27:02Z</updated>
+        <summary type="html"><![CDATA[Angular's two-way data binding is already awesome, but with the Firebase API you can have three way data binding.]]></summary>
+        <author>
+            <name>Rin Raeuber</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VanillaJS vs. jQuery]]></title>
+        <id>/contribs/6FAA64C8-6128-4192-B39E-800B4CAE070C</id>
+        <link href="/contribs/6FAA64C8-6128-4192-B39E-800B4CAE070C">
+        </link>
+        <updated>2014-04-08T21:51:54Z</updated>
+        <summary type="html"><![CDATA[It's good to know how jQuery works but how to achieve the same features with pain old JavaScript?
+
+A brief tour through recent JavaScript features and how to use them.]]></summary>
+        <author>
+            <name>Max Scheffler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rapid API Development]]></title>
+        <id>/contribs/7053CADC-3399-4A35-B428-B81E5CBA4492</id>
+        <link href="/contribs/7053CADC-3399-4A35-B428-B81E5CBA4492">
+        </link>
+        <updated>2014-04-14T14:01:20Z</updated>
+        <summary type="html"><![CDATA[Foxx is a server-side JavaScript application framework that – instead of being a separate application layer is directly integrated into the open source NoSQL database ArangoDB. When your first thought is “Oh no, stored procedures” – don’t worry: Foxx helps you structure your application using the MVC pattern and yes, you can put everything into your version control. Still it tremendously reduces redundancy in database communication and provides direct access to all features of ArangoDB like graph traversals or the query language AQL. Furthermore it automatically generates an interactive API documentation with just a few annotations. Foxx perfectly integrates both with modern client-side MVC frameworks or can be used behind your server-side application to reduce roundtrips to the database.]]></summary>
+        <author>
+            <name>Michael Hackstein</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Everything Animated]]></title>
+        <id>/contribs/71C3BD2A-F9B1-449B-BE75-5AFFC250453D</id>
+        <link href="/contribs/71C3BD2A-F9B1-449B-BE75-5AFFC250453D">
+        </link>
+        <updated>2014-02-28T15:20:37Z</updated>
+        <summary type="html"><![CDATA[Create amazing animations on your website with the help of modern Javascript,CSS and SVG. Keywords: requestAnimationFrame, transform3d, svg masks.]]></summary>
+        <author>
+            <name>Yehor Lvivski</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[On breaking Customized JavaScript-based XSS Protections]]></title>
+        <id>/contribs/79583E65-5A52-4D88-9CC9-9254670FAF92</id>
+        <link href="/contribs/79583E65-5A52-4D88-9CC9-9254670FAF92">
+        </link>
+        <updated>2014-03-11T12:43:12Z</updated>
+        <summary type="html"><![CDATA[Cross-Site Scripting --- though at #3 in OWASP ranking but its footprint is everywhere. In this talk, I will discuss the results of a recently conducted 
+survey in which I found XSS in 50% of Alexa's top 100 sites. I will point out common mistakes that developers are doing in the wild, show how easy is to find XSS in top sites and at the same time demonstrate that how vulnerable your customized or home-made JavaScript-based XSS solutions are ...]]></summary>
+        <author>
+            <name>Ashar Javed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA["Project-level documentation is for managers, blocks-level documentation is for developers" by Vladimir Grinenko]]></title>
+        <id>/contribs/7CAFFBD1-B3F9-4AAF-B641-A74C64279BFA</id>
+        <link href="/contribs/7CAFFBD1-B3F9-4AAF-B641-A74C64279BFA">
+        </link>
+        <updated>2014-02-25T15:35:22Z</updated>
+        <summary type="html"><![CDATA[Abstract:
+
+As you know, none loves to document code. However, it's needed to be done, because undocumented projects are very hard to maintain. Especially if you have many them. Its easier to get it over with once, and benefit from this further on. But... will it stay so forever? Of course, not. You need to update it, because there is nothing worse than a code which documentation is outdated and controversing about how it works. How do you deal with such a problem in your everyday routine? Probably well, if you use JSDoc format or similar for other technologies. It helps when your documentation is just about each property or method. But what do you do with more abstract documentation covering the whole project?
+
+Here in Yandex (http://company.yandex.com/) we created BEM (http://bem.info), a methodology for frontend development. It helped us a lot in developing and maintaining large scale projects with a tens bln audience and distributed teams working in more than 7 countries now on them. 4 years ago we open-sourced it, and not only the methodology, but building and optimizing tools, block libraries, template engine, etc. all working with one context in one terms, "speaking one language" so to say. You can check it out at http://bem.info or on http://github.com/bem. In BEM we have this idea of developing your product out of completely independent blocks (you may have WebComponents in mind, the idea is similar) where you have all the technologies you need (CSS, JS, templates, etc) inside it.
+
+And guess what? According to BEM, we put documentation as well as other technologies inside the block it belongs to. Our opensourced building tools provide possibility to build flexible site with documentation for each block. And as soon as the whole stack we have is based on JS, we developed our own JSDoc parser for node.js: https://github.com/bem/jsd.
+
+And we would be happy to share it talking at your conference. 
+
+Speaker's bio: 
+
+I am a web developer with more than 10 years of fronted experience from Ukraine. I have a lot of expertise in HTML5, CSS3 and JavaScript. Currently work for Yandex, Russian Search engine, leading a team that develops BEM (Block, Element, Modifier). I also evangelize a lot both in Russian and English and give live coding sessions as well as maintain and contribut to few open-source projects. I am free to talk about experience in BEM technologies (read more at bem.info), large scale web sites architecture, modular frontend applications development, etc. Outside of Yandex, I did a lot of studio web development. You can check my developer's profile at https://github.com/tadatuta/]]></summary>
+        <author>
+            <name>Vladimir Grinenko</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Enterprise AngularJS]]></title>
+        <id>/contribs/7E7418D1-4348-405A-8397-1EAF926BFD95</id>
+        <link href="/contribs/7E7418D1-4348-405A-8397-1EAF926BFD95">
+        </link>
+        <updated>2013-12-03T16:12:25Z</updated>
+        <summary type="html"><![CDATA[I'll talk about the development of the Portal AngularJS.de(http://angularjs.de/) and the the general development with enterprise projects that use AngularJS in Germany I've got in touch with.
+Who uses AngularJS?Why?
+Special UseCases I've met and solved...
+How to deal with big projects and teams > 30 Persons...
+How to convince enterprise clients of TDD...
+
+I'm a freelance consultant for Web technologies und bring AngularJS into many middle class++ companies.]]></summary>
+        <author>
+            <name>Robin Böhm</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Promises in Javascript]]></title>
+        <id>/contribs/82DED6A7-6B3C-421E-82BB-D17009EED0E0</id>
+        <link href="/contribs/82DED6A7-6B3C-421E-82BB-D17009EED0E0">
+        </link>
+        <updated>2014-03-14T11:02:41Z</updated>
+        <summary type="html"><![CDATA[There is no way for excuses, I promise!]]></summary>
+        <author>
+            <name>@gwandr</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stop storing your users' data!]]></title>
+        <id>/contribs/87F10270-E083-45BA-BB2A-90B72E59B635</id>
+        <link href="/contribs/87F10270-E083-45BA-BB2A-90B72E59B635">
+        </link>
+        <updated>2013-11-19T14:31:27Z</updated>
+        <summary type="html"><![CDATA[I'd like to give an introduction to remoteStorage, an open protocol for per-user storage on the Web. It lets your users connect their own storage account from your client-side JavaScript application in order to sync their application data across devices *and* applications.
+
+I would explain both the concept and protocol as well as the real world usage via the remoteStorage.js library and common data modules.]]></summary>
+        <author>
+            <name>Sebastian Kippe</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pros and Cons of declared types]]></title>
+        <id>/contribs/892CE5E6-72BC-4B5F-B25C-958DCB020B43</id>
+        <link href="/contribs/892CE5E6-72BC-4B5F-B25C-958DCB020B43">
+        </link>
+        <updated>2014-01-25T17:25:45Z</updated>
+        <summary type="html"><![CDATA[In my long history of advocating declared types in this talk I want to give survey of the pros and cons of declared types in programming languages. To do this I will provide you with JavaScript and TypeScript snippets that basically do the same thing. Based on that we can discuss if, where and how declared types can make your life easier. If you think I will be strongly biased towards declared types you might be surprised.  ]]></summary>
+        <author>
+            <name>Oliver Zeigermann</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Async patterns with promises, generators and coroutines]]></title>
+        <id>/contribs/897CE2E6-2F78-487A-B20D-88C55AE2A105</id>
+        <link href="/contribs/897CE2E6-2F78-487A-B20D-88C55AE2A105">
+        </link>
+        <updated>2014-03-28T22:43:49Z</updated>
+        <summary type="html"><![CDATA[I would like to talk on how to write well structured asynchronous code in node.js using the holy trinity of promises, generators and coroutines. What libraries I have found useful for this and maybe some promise anti-patterns as well.]]></summary>
+        <author>
+            <name>Willem D&apos;Haeseleer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Firefox OS - A Webdevelopers view]]></title>
+        <id>/contribs/93BBAE5B-6231-4BD8-9DF6-DF21E8D7EBDC</id>
+        <link href="/contribs/93BBAE5B-6231-4BD8-9DF6-DF21E8D7EBDC">
+        </link>
+        <updated>2013-11-23T20:19:22Z</updated>
+        <summary type="html"><![CDATA[Firefox from a Webdevelopers view. Why I think it is a huge step for the (mobile) Web and what we may expect for other Platforms. A deeper look into some APIs and how to use them outside of FirefoxOS.]]></summary>
+        <author>
+            <name>@casarock</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rapid prototyping, development & testing of a cloud-based, social music streaming platform]]></title>
+        <id>/contribs/973B7BF2-D83D-4769-9931-C4A55B389B95</id>
+        <link href="/contribs/973B7BF2-D83D-4769-9931-C4A55B389B95">
+        </link>
+        <updated>2014-01-09T23:18:04Z</updated>
+        <summary type="html"><![CDATA[Our product isn't officially released yet, by the time the UNconf comes around we'll be able to demo the real product! So forgive my being cagey :)
+
+The future of mobile and web development will be built on highly scalable Backend-As-A-Service (BaaS) architectures like Parse and CloudMine.  Using hosted Node.js and backend-managed data and webhooks written in Javascript, enterprise applications and new consumer products can be built in a matter of weeks. I'll talk about how I've leveraged the CloudMine platform to produce a business solution for music streaming purely in Javascript, including a single-page browser application built using Backbone.js and jQuery and a suite of mobile apps for iOS, Android and Windows Phone, also all built purely in Javascript via PhoneGap.
+
+Time to market from inception to release of the backend, webhooks, browser app, and mobile apps, all written in Javascript, has been just a few weeks, a feat that was impossible even just a few months ago. No need to build full backend OR frontend applications - just enough to interact with the JS SDK provided by the BaaS provider and the webhooks.
+
+I'll also cover how TDD has been leveraged from the beginning using Jasmine. I'll be providing diagrams, code snippets, and can even live demo the full product - the whole audience can participate on their phones, tablets, phablets and laptops!]]></summary>
+        <author>
+            <name>Patrick Sears</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rendering large terrains in WebGL]]></title>
+        <id>/contribs/A300FFCA-7DCE-4B5F-800C-33E26DC7FEEB</id>
+        <link href="/contribs/A300FFCA-7DCE-4B5F-800C-33E26DC7FEEB">
+        </link>
+        <updated>2014-03-10T15:07:19Z</updated>
+        <summary type="html"><![CDATA[My writeup on terrain rendering in WebGL seems to have been popular (#1 HN & r/programming), so I thought I could craft a talk out of it. Please see http://www.pheelicks.com/2014/03/rendering-large-terrains/ and demo at http://felixpalmer.github.io/lod-terrain/
+
+The talk will cover the material from this post, but going into more detail. Specifically we'll look at:
+- Mathematically generating plausible terrain using perlin noise
+- LOD calculations, how to make sure nearby terrain gets more detail than distant terrain
+- Rendering and lighting calculations, how to turn a deformed mesh into a captivating scene]]></summary>
+        <author>
+            <name>Felix Palmer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hoodie & AngularJS - The perfect couple for simple and fast Prototyping!]]></title>
+        <id>/contribs/A6F1B39A-67FC-4A2B-96F5-AD02C26F4D5B</id>
+        <link href="/contribs/A6F1B39A-67FC-4A2B-96F5-AD02C26F4D5B">
+        </link>
+        <updated>2014-01-19T14:03:50Z</updated>
+        <summary type="html"><![CDATA[You want it all, right? So, we’d like to give you a look at this perfect combination for offline-first, mobile web-applications with a backend out-of-the-box and the opportunities, pitfalls and projects that are currently using it.
+
+Take a look at the future. You won’t need anything else ever again.
+]]></summary>
+        <author>
+            <name>Ola Gasidlo &amp; Robin Böhm</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reactive Angular]]></title>
+        <id>/contribs/A81859F8-055B-40A5-96AD-6C9ABB450C0A</id>
+        <link href="/contribs/A81859F8-055B-40A5-96AD-6C9ABB450C0A">
+        </link>
+        <updated>2014-04-01T06:42:11Z</updated>
+        <summary type="html"><![CDATA[There's been a lot of talk about Reactive Programming lately, but nobody really knows exactly what it is. I'll first talk a little bit about what Reactive Programming is and then we'll dive into practical examples on how to use it with AngularJS and other FrontEnd frmameworks. We'll see how beautiful and clean our code can be when we use Reactive code with Angular.]]></summary>
+        <author>
+            <name>Martin Gontovnikas</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HTML enhanced for web apps - Introduction to AngularJS]]></title>
+        <id>/contribs/B01EF867-E65A-4565-9138-8B433A30019A</id>
+        <link href="/contribs/B01EF867-E65A-4565-9138-8B433A30019A">
+        </link>
+        <updated>2014-02-22T14:01:42Z</updated>
+        <summary type="html"><![CDATA[AngularJS (http://angularjs.org/) is one of the hottest
+technologies for a pure client side MVC framework. It offers 2-way
+data-binding, definition of your own tags and attributes, and a full
+MVC stack including routing inside your app. In this side-less talk I
+will introduce Angular's core concepts by live coding a small, but
+fully functional application.]]></summary>
+        <author>
+            <name>Oliver Zeigermann</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Project communcation]]></title>
+        <id>/contribs/B0DC54C2-915A-4B97-A628-512E33E084B4</id>
+        <link href="/contribs/B0DC54C2-915A-4B97-A628-512E33E084B4">
+        </link>
+        <updated>2013-11-03T19:28:34Z</updated>
+        <summary type="html"><![CDATA[The communication between clients, project managers and developers is often difficulty. Asked for objectives & status, they will often give completely different answers. The talk explains communication based on the 4-sides-model and explains the different project roles and their aims.
+
+Establishing understanding will lead to successful projects.]]></summary>
+        <author>
+            <name>Judith Andresen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building your own Quadcopter]]></title>
+        <id>/contribs/B1044676-86E8-423D-B076-4EFFEB2B8217</id>
+        <link href="/contribs/B1044676-86E8-423D-B076-4EFFEB2B8217">
+        </link>
+        <updated>2013-12-29T06:55:25Z</updated>
+        <summary type="html"><![CDATA[Building your own Quadcopter from scretches
+- choosing materials
+- choosing the parts
+- putting it togethet
+- how control it with node.js]]></summary>
+        <author>
+            <name>Gergely Nemeth</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[End the JS Framework war - Learn as many as possible.]]></title>
+        <id>/contribs/B45FA3E6-F9B2-4BCA-8CD9-69D13B2D5627</id>
+        <link href="/contribs/B45FA3E6-F9B2-4BCA-8CD9-69D13B2D5627">
+        </link>
+        <updated>2014-02-13T06:50:51Z</updated>
+        <summary type="html"><![CDATA[Ever since jquery, we have been steadily increasing the amount of complexity that the client side part of a web application handles. As the complexity increased, we needed higher abstractions and better toolkits to create structured and scalable web front ends. With the advent of single page applications, this has been even higher. The recent influx of Javascript toolkits and frameworks is a GOOD thing. It provides us Javascript developers with a wonderful playground to learn coding philosophies and best practices in the easiest way possible. Design patterns are old hat but Javascript, as we all know, works slightly differently and these frameworks are leveraging the good parts to come up with great patterns. So, my recent endeavor has been to flush out these patterns, lay bare the mysterious workings of the framework and learn to make myself a better developer. It started with Backbonejs, progressed to Emberjs and now I'm looking back at patterns in Jquery, while also dabbling with flightjs and angular.
+
+I am a Front End developer based in Bangalore, India and working at a health care startup. 
+I peddle my code at https://github.com/pksjce]]></summary>
+        <author>
+            <name>Pavithra K</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Writing a clean, zero-dependency single page app ]]></title>
+        <id>/contribs/B6B8B9C7-A20E-4215-92AC-CF1694EB39AA</id>
+        <link href="/contribs/B6B8B9C7-A20E-4215-92AC-CF1694EB39AA">
+        </link>
+        <updated>2014-01-15T23:18:21Z</updated>
+        <summary type="html"><![CDATA[A lot of people believe you can only write a proper web app while depending a bunch of libraries.
+
+I'd like to show how easy it is to write a clean and simple application based on the TodoMVC application with 0 dependencies.]]></summary>
+        <author>
+            <name>Christoph Burgmer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Videogular: An HTML5 video player for AngularJS]]></title>
+        <id>/contribs/C66F9B03-D97C-4FDF-B7EE-6040ECC7411B</id>
+        <link href="/contribs/C66F9B03-D97C-4FDF-B7EE-6040ECC7411B">
+        </link>
+        <updated>2013-12-01T22:52:54Z</updated>
+        <summary type="html"><![CDATA[I will talk about Videogular (https://github.com/2fdevs/videogular): how it's developed, what problems you will face with AngularJS and HTML5 video, how to create a solid and extendable video player through an API, plugins and themes, performance tips and much more!]]></summary>
+        <author>
+            <name>Raul Jimenez</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New features in npm]]></title>
+        <id>/contribs/CA09DC43-88E7-451C-8A98-ACB8C6CF7784</id>
+        <link href="/contribs/CA09DC43-88E7-451C-8A98-ACB8C6CF7784">
+        </link>
+        <updated>2013-10-28T18:53:14Z</updated>
+        <summary type="html"><![CDATA[npm is moving fast, so I would present some new features in npm and show some cool tricks you might not be aware of.]]></summary>
+        <author>
+            <name>Robert Kowalski</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[From Zero to Hero: Leveraging hood.ie to build for the offline state]]></title>
+        <id>/contribs/CF015E1E-9068-4F0B-9E76-755DCE4B48AC</id>
+        <link href="/contribs/CF015E1E-9068-4F0B-9E76-755DCE4B48AC">
+        </link>
+        <updated>2014-01-22T18:32:40Z</updated>
+        <summary type="html"><![CDATA[Being offline sucks. It’s one of the biggest pains in our ever growing hyper-connected world.
+
+Ever tried to do update your location while in a basement, failed to send a text message in in the metro, or lost a completed online form because of submitting it while your connection went down the drain?
+
+The ideal scenario would be that web applications took care of this downside, but still the majority of application designers and programmers doesn’t develop for the offline state. 
+
+Luckily, the clever folks at hood.ie came up with a new approach to tackle this complicated issue:
+A JavaScript application framework that enables us to build offline-first applications, with data synchronization  as a progressive enhancement, instead of a dependency.
+
+In this session, I will show you how to build an offline-friendly checklist application with hood.ie, demonstrating some of the framework’s features and going through the creation process step by step.
+
+The application allows users to create online checklists (which they can then share across all devices and platforms) and pass them on to their pals with a unique URL identifier. The creation of checklist templates allows the user to use the same checklists over and over again, to enable users to set up repetitive activities and routines.
+
+This presentation is going to focus on the features that make hood.ie special, and examplifies their use by an easy-to-follow hands on mini workshop.]]></summary>
+        <author>
+            <name>Marcel Kalveram</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Games from the 80ies in less than 100 lines of code]]></title>
+        <id>/contribs/D03BAE79-D4AA-4BDE-8DB2-035FD481CE49</id>
+        <link href="/contribs/D03BAE79-D4AA-4BDE-8DB2-035FD481CE49">
+        </link>
+        <updated>2013-12-31T10:12:46Z</updated>
+        <summary type="html"><![CDATA[In this slide-less talk we will develop a few game ideas from the eighties in JavaScript. We will start from scratch and see how easy it is to sketch basic games ideas in the browser using the canvas. If you want to this can be a highly interactive session.
+]]></summary>
+        <author>
+            <name>Oliver Zeigermann</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Firefox Marketplace]]></title>
+        <id>/contribs/D2A82323-4FD2-496A-8C5B-87616E8A19FE</id>
+        <link href="/contribs/D2A82323-4FD2-496A-8C5B-87616E8A19FE">
+        </link>
+        <updated>2014-02-19T13:12:22Z</updated>
+        <summary type="html"><![CDATA[I'll describe how to publish an existing web app in the Firefox Marketplace so the app can installed on Firefox OS, Android, Windows, Mac and Linux.]]></summary>
+        <author>
+            <name>@RobertKatzki</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[All Streams All of the Time]]></title>
+        <id>/contribs/DA6B24FD-EC5A-4CDF-BBD8-AC14EB75A0AD</id>
+        <link href="/contribs/DA6B24FD-EC5A-4CDF-BBD8-AC14EB75A0AD">
+        </link>
+        <updated>2014-03-18T14:16:54Z</updated>
+        <summary type="html"><![CDATA[Can you build an app using only streams? Is a fully stream-based
+architecture possible?
+
+This talk will show you how to connect some robots, a set of Node.js
+micro-services, and a web browser, using streams for all the
+communication, and for the application logic.
+
+Readable, writable, duplex, transform, and custom. All the magic of
+Node.js streams!
+]]></summary>
+        <author>
+            <name>Richard Rodger</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Patching CoffeeScript for AngularJS]]></title>
+        <id>/contribs/DAFFA7FF-12D5-4677-AD87-807624AE268D</id>
+        <link href="/contribs/DAFFA7FF-12D5-4677-AD87-807624AE268D">
+        </link>
+        <updated>2014-04-18T15:45:01Z</updated>
+        <summary type="html"><![CDATA[Open Source allows us to improve our tools, when we notice that they are not powerful enough. In this 15 minute talk I'll take a look at the CoffeeScript parser and add a little tweak to make coding angular code with coffee even more enjoyable! At least, if you don't hate coffee anyways ;)]]></summary>
+        <author>
+            <name>Jan Lelis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Game Jam - Developing a 48h Game]]></title>
+        <id>/contribs/E42E8706-A239-497C-AAEE-C6BD1246B666</id>
+        <link href="/contribs/E42E8706-A239-497C-AAEE-C6BD1246B666">
+        </link>
+        <updated>2013-11-18T22:10:42Z</updated>
+        <summary type="html"><![CDATA[For those who have never heard about Game Jams, Wikipedia offers a good summary: "A game jam is a gathering of game developers for the purpose of planning, designing, and creating one or more games within a short span of time, usually ranging between 24 to 48 hours." In this presentation I will talk about the experience I made on Gamejams. I will show what to do, what not to do and some useful tips how to get a game working in a very small time window. Depending on the remaining Time, I might be able to provide some code examples of basic game programming.]]></summary>
+        <author>
+            <name>Tobias Rojahn</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Company Culture under Pressure / Growing Business Changes Behaviour]]></title>
+        <id>/contribs/E5F682EF-42B4-430A-84BB-ED06CFC6015A</id>
+        <link href="/contribs/E5F682EF-42B4-430A-84BB-ED06CFC6015A">
+        </link>
+        <updated>2013-11-03T19:26:02Z</updated>
+        <summary type="html"><![CDATA[In the beginning everything is very simple: flat (because non-existent) hierarchy, open doors, and teamwork. The larger the company is, the more employees demand for "professionalization". Roles and hierarchies are defined, meanwhile the company solidifies.
+Instead of  having fun, employees suffer in never ending meetings.
+
+Is that necessary? How do you remain mobility, lightness and fun while growing business?]]></summary>
+        <author>
+            <name>Judith Andresen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Implmenting Hypermedia APIs in JavaScript]]></title>
+        <id>/contribs/E768BDB4-12D8-4B1A-BE95-C19D97060DAC</id>
+        <link href="/contribs/E768BDB4-12D8-4B1A-BE95-C19D97060DAC">
+        </link>
+        <updated>2014-01-24T13:43:24Z</updated>
+        <summary type="html"><![CDATA[Everybody needs an API! I would like to talk a bit about Hypermedia APIs: What is a hypermedia API? What are the underlying concepts? Let's discuss their benefits and drawbacks.
+
+I will also discuss how to implement them with Node.js, as well as how to consume them from Node.js or in the browser and give you an overview of existing libraries/npm modules, best practices and pitfalls.
+]]></summary>
+        <author>
+            <name>Bastian Krol</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using sensors in Open Web Apps]]></title>
+        <id>/contribs/EA724880-8447-4B5E-BC6F-28043595BA47</id>
+        <link href="/contribs/EA724880-8447-4B5E-BC6F-28043595BA47">
+        </link>
+        <updated>2014-02-24T14:41:29Z</updated>
+        <summary type="html"><![CDATA[One of the main weaknesses of web applications is that browsers can access a limited amount of device services, such as geolocation, device orientation etc. Here at the JS Unconf I would like to explore with you how the W3C and browser vendors are working together to enable the development of Open Web Apps that can access device hardware and sensors through Javascript. I will also show the code of example applications you can try directly on your mobile devices.]]></summary>
+        <author>
+            <name>Francesco Iovine</name>
+        </author>
+    </entry>
+</feed>

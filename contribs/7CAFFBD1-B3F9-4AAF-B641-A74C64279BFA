@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Contribs and Interests - JS Unconf 2014</title>
+    <meta name="keywords" content="javascript, unconference, 2014, conference, hamburg, javascript unconference, js, js unconf, node.js">
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- The HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+    <![endif]-->
+
+    <script src="../js/jquery.min.js" type="text/javascript"></script>
+    <script src="../js/core/core.js" type="text/javascript"></script>
+    <!-- <script src="/js/models/your_model.js" type="text/javascript"></script> -->
+    <script src="../js/config/init.js" type="text/javascript"></script>
+    <script src="../js/bootstrap/alert.js" type="text/javascript"></script>
+
+
+    <link href="../css/style.css" rel="stylesheet" />
+
+    <!-- The fav and touch icons -->
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <link rel="apple-touch-icon" href="http://contribs.jsunconf.eu/contribs/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="http://contribs.jsunconf.eu/contribs/img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="http://contribs.jsunconf.eu/contribs/img/apple-touch-icon-114x114.png">
+
+    <link href="../contribs.xml" rel="alternate" type="application/atom+xml" title="Registered contributions" />
+    <link href="../interests.xml" rel="alternate" type="application/atom+xml" title="Registered interests" />
+  </head>
+
+
+  <body>
+    <div class="wrapper">
+      <header class="site">
+        <a href="../index.html">
+          <div class="container">
+            <div class="col-md-6">
+              <section class="c">
+                <div id="logo">
+                  <figure class="front"></figure>
+                  <figure class="back"></figure>
+                  <figure class="right"></figure>
+                  <figure class="left"></figure>
+                  <figure class="top"></figure>
+                  <figure class="bottom"></figure>
+                </div>
+              </section>
+
+            </div>
+            <div class="col-md-6 headline">
+              April 26th - 27th, 2014 <br/>
+              Hamburg
+            </div>
+
+          </div>
+        </a>
+      </header>
+      <nav class="menu">
+        <div class="text-center">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="http://jsunconf.eu">JS Unconf</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container content">
+        <div id="flash-container"></div><script type="text/javascript">$("#flash-container .alert").alert();</script>
+        <h2>&quot;Project-level documentation is for managers, blocks-level documentation is for developers&quot; by Vladimir Grinenko</h2>
+<div class="row">
+  <div class="col-md-8">
+    <p>
+      Abstract:
+
+As you know, none loves to document code. However, it&#39;s needed to be done, because undocumented projects are very hard to maintain. Especially if you have many them. Its easier to get it over with once, and benefit from this further on. But... will it stay so forever? Of course, not. You need to update it, because there is nothing worse than a code which documentation is outdated and controversing about how it works. How do you deal with such a problem in your everyday routine? Probably well, if you use JSDoc format or similar for other technologies. It helps when your documentation is just about each property or method. But what do you do with more abstract documentation covering the whole project?
+
+Here in Yandex (http://company.yandex.com/) we created BEM (http://bem.info), a methodology for frontend development. It helped us a lot in developing and maintaining large scale projects with a tens bln audience and distributed teams working in more than 7 countries now on them. 4 years ago we open-sourced it, and not only the methodology, but building and optimizing tools, block libraries, template engine, etc. all working with one context in one terms, &quot;speaking one language&quot; so to say. You can check it out at http://bem.info or on http://github.com/bem. In BEM we have this idea of developing your product out of completely independent blocks (you may have WebComponents in mind, the idea is similar) where you have all the technologies you need (CSS, JS, templates, etc) inside it.
+
+And guess what? According to BEM, we put documentation as well as other technologies inside the block it belongs to. Our opensourced building tools provide possibility to build flexible site with documentation for each block. And as soon as the whole stack we have is based on JS, we developed our own JSDoc parser for node.js: https://github.com/bem/jsd.
+
+And we would be happy to share it talking at your conference. 
+
+Speaker&#39;s bio: 
+
+I am a web developer with more than 10 years of fronted experience from Ukraine. I have a lot of expertise in HTML5, CSS3 and JavaScript. Currently work for Yandex, Russian Search engine, leading a team that develops BEM (Block, Element, Modifier). I also evangelize a lot both in Russian and English and give live coding sessions as well as maintain and contribut to few open-source projects. I am free to talk about experience in BEM technologies (read more at bem.info), large scale web sites architecture, modular frontend applications development, etc. Outside of Yandex, I did a lot of studio web development. You can check my developer&#39;s profile at https://github.com/tadatuta/
+    </p>
+    <p>
+      This <strong>contribution</strong> is by <strong>Vladimir Grinenko</strong>
+    <p>
+    <p>
+      <span id="votes">11</span> Votes
+    <p>
+    
+    <p class="response-info">
+      This is a response to the request
+      
+      <a class="response-link" href="../interests/8538DE29-D591-492F-A3B5-C99FA11471F5">Documentation Generators Best Practices from Matthias Seemann</a>
+    </p>
+    
+  </div>
+  
+</div>
+
+      </div>
+      <footer class="footer">
+        <div class="container">
+          <ul class="hidden-xs pull-left">
+            <li>made with &hearts; and Node.js</li>
+          </ul>
+          <ul class="pull-right">
+            <li><a href="../imprint">Imprint</a></li>
+            <li><a href="http://twitter.com/jsunconf">@jsunconf</a></li>
+          </ul>
+        <div>
+      </footer>
+    </div>
+
+    <script src="../js/app.js" type="text/javascript"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-44357704-2', 'jsunconf.eu');
+      ga('set', 'anonymizeIp', true);
+      ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>
+
